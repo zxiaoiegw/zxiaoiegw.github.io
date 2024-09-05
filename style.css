@@ -1,0 +1,101 @@
+/* Zhen Xiao 10-17-2023 */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    background-color: var(--extra-light-gray);
+}
+
+#pictures {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#pictures img {
+    background-size: cover;
+    object-fit: cover;
+}
+
+.hero__inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero__inner h1 {
+    font-size: 1.95rem;
+    margin-top: 0;
+    margin-bottom: .625em;
+    color: white;
+}
+
+.hero__inner p {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: .625em;
+    color: white;
+}
+
+.cats-list,
+.cart {
+    border: 1px solid #ccc;
+    padding: 20px 20px 0 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cart {
+    background-color: white;
+    bottom: 0;
+    position: sticky;
+    padding: 20px;
+}
+
+.cats-list .add-to-cart {
+    margin-bottom: 20px;
+}
+
+.cats-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cat-item {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 40%;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cat-item img {
+    /* max-width: 200px; */
+    object-fit: cover;
+    height: 50%;
+    width: 50%;
+}
+
+/* For mobile viewports */
+@media (max-width: 767px) {
+    .cat-item {
+        flex-basis: 100%;
+    }
+}
+
+.cart-items li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

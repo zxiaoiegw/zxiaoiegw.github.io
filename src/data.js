@@ -22,25 +22,6 @@ import {
     summarization,
   } from "./assets";
   
-  // export const projectStats = [
-  //   {
-  //     name: "Total Projects",
-  //     value: "200+",
-  //   },
-  //   {
-  //     name: "Website Design",
-  //     value: "150+",
-  //   },
-  //   {
-  //     name: "Mobile App Design",
-  //     value: "50",
-  //   },
-  //   {
-  //     name: "Clients worldwide",
-  //     value: "+86",
-  //   },
-  // ];
-  
   export const tools = [
     {
       name: "MySQL",
@@ -145,7 +126,7 @@ import {
     {
       id: 3,
       title: "Budge Tracker App",
-      cat: "Web APP",
+      cat: "AI + Full-Stack",
       url: "https://capstone-budget-tracker.vercel.app/",
       img: budgetTracker,
     },
@@ -153,7 +134,7 @@ import {
       id: 4,
       title: "Portfolio Website",
       cat: "Web Design",
-      url: "",
+      url: "https://zxiaoiegw.github.io/",
       img: portfolio,
     },
     {

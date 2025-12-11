@@ -48,45 +48,6 @@ const Header = () => {
           </a>
         </div>
       </div>
-
-      {/* <div className='w-full flex-1 flex justify-center'>
-        <div className='w-[300px] h-[290px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px]  border rounded-full border-gray-600 dark:border-gray-200 relative  md:mt-20 lg:mt-0 flex items-center justify-center'>
-          <img
-            src={Profile}
-            className='w-auto h-full absolute -top-5 md:-top-10'
-            data-aos='fade-down'
-            data-aos-offset='200'
-            data-aos-delay='50'
-            data-aos-duration='500'
-            data-aos-easing='ease-in-out'
-          />
-          <div
-            className='relative w-full h-full rounded-full'
-            data-aos='fade-up'
-            data-aos-offset='200'
-            data-aos-delay='50'
-            data-aos-duration='1000'
-            data-aos-easing='ease-in-out'
-          >
-            <img
-              src={Reactjs}
-              className='absolute top-7 md:top-20 left-3 md:-left-3 2xl:left-2 w-12 h-12 md:w-16 md:h-16'
-            />
-            <img
-              src={Redux}
-              className='absolute bottom-7 left-3 md:bottom-10 2xl:left-12 w-12 h-12 md:w-16 md:h-16'
-            />
-            <img
-              src={Mongodb}
-              className='absolute top-5 md:top-14 right-3 md:-right-3 2xl:right-2 w-12 h-12 md:w-16 md:h-16'
-            />
-            <img
-              src={Nodejs}
-              className='absolute bottom-7 right-3 md:bottom-10 2xl:right-12 w-12 h-12 md:w-16 md:h-16'
-            />
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 };

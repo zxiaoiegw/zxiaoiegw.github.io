@@ -28,9 +28,6 @@ const Skills = () => {
                 <p className='text-md font-semibold text-white '>
                   {skill.name}
                 </p>
-                {/* <p className='text-md font-semibold text-white'>
-                  {skill.value + "%"}
-                </p> */}
               </div>
               <div className='w-[200px] h-[10px] bg-slate-800 rounded-lg mb-1'>
                 <div

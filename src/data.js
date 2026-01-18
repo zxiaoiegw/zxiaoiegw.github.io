@@ -1,21 +1,18 @@
 import {
     CSS3,
-    CrewAI,
     Express,
     HTML5,
     Javascript,  
     kittens,  
     LangChain,
-    Mysql,
-    Nextjs,
-    Nextjs2,
+    Sql,
     Nodejs,
-    OpenAI,
+    Figma,
     Python,
     Reactjs,
     Typescript,
     career,
-    figma,
+    figmaDesign,
     portfolio, 
     budgetTracker,
     redesign,
@@ -23,10 +20,6 @@ import {
   } from "./assets";
   
   export const tools = [
-    {
-      name: "MySQL",
-      icon: Mysql,
-    },
     {
       name: "Express",
       icon: Express,
@@ -39,72 +32,58 @@ import {
       name: "NodeJs",
       icon: Nodejs,
     },
-    {
-      name: "NextJs",
-      icon: Nextjs2,
-    },
   ];
   
   export const skills = [
     {
       name: "ReactJs",
-      value: 98,
+      value: 50,
       icon: Reactjs,
     },
     {
       name: "NodeJs",
-      value: 96,
+      value: 50,
       icon: Nodejs,
     },
     {
-      name: "NextJs",
-      value: 97,
-      icon: Nextjs,
-    },
-    {
-      name: "MySQL",
-      value: 98,
-      icon: Mysql,
+      name: "SQL",
+      value: 50,
+      icon: Sql,
     },
     {
       name: "CSS3",
-      value: 98,
+      value: 70,
       icon: CSS3,
     },
     {
       name: "HTML5",
-      value: 98,
+      value: 76,
       icon: HTML5,
     },
     {
       name: "JavaScript",
-      value: 88,
+      value: 60,
       icon: Javascript,
     },
     {
       name: "TypeScript",
-      value: 88,
+      value: 55,
       icon: Typescript,
     },
     {
       name: "Python",
-      value: 78,
+      value: 65,
       icon: Python,
     },
     {
       name: "LangChain",
-      value: 78,
+      value: 50,
       icon: LangChain,
     },
     {
-      name: "CrewAI",
-      value: 78,
-      icon: CrewAI,
-    },
-    {
-      name: "OpenAI API",
-      value: 78,
-      icon: OpenAI,
+      name: "Figma",
+      value: 80,
+      icon: Figma,
     },
   ];
   
@@ -156,7 +135,7 @@ import {
       title: "High-Fidelity Prototype",
       cat: "UI Design",
       url: "https://www.figma.com/proto/kXhueSctXqN5HIH52RlDWC/high-fidelity-prototype?node-id=0-3&p=f&t=9j9CAjGy6j5ByLm2-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=0%3A3",
-      img: figma,
+      img: figmaDesign,
     },
   ];
   

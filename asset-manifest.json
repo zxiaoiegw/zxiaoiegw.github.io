@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bb883dd9.css",
-    "main.js": "/static/js/main.aa5da60f.js",
+    "main.css": "/static/css/main.8472d984.css",
+    "main.js": "/static/js/main.508a0fec.js",
     "static/media/profile.png": "/static/media/profile.30ac92a7ef3c290900fd.png",
     "static/media/food.png": "/static/media/food.1927aa6219296ded990e.png",
     "static/media/kittens.png": "/static/media/kittens.24384dc05c3733319483.png",
@@ -12,6 +12,7 @@
     "static/media/summarization.png": "/static/media/summarization.074122dc5bc58ba6fa96.png",
     "static/media/career.png": "/static/media/career.350f29ecd3b0f6a32e6b.png",
     "static/media/budgetTracker.png": "/static/media/budgetTracker.d9da28ea0b0f783c4196.png",
+    "static/media/pill-reminder.png": "/static/media/pill-reminder.a3a1bfb1860f2f5716ff.png",
     "static/media/langchain.svg": "/static/media/langchain.b93fdfb0acc96d419ff64e11d5f52f33.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.e72c9ed5483656b44c338310ad3219ce.svg",
     "static/media/python.svg": "/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
@@ -28,11 +29,11 @@
     "index.html": "/index.html",
     "static/media/css3.svg": "/static/media/css3.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
-    "main.bb883dd9.css.map": "/static/css/main.bb883dd9.css.map",
-    "main.aa5da60f.js.map": "/static/js/main.aa5da60f.js.map"
+    "main.8472d984.css.map": "/static/css/main.8472d984.css.map",
+    "main.508a0fec.js.map": "/static/js/main.508a0fec.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb883dd9.css",
-    "static/js/main.aa5da60f.js"
+    "static/css/main.8472d984.css",
+    "static/js/main.508a0fec.js"
   ]
 }

@@ -27,3 +27,4 @@ export { default as budgetTracker } from "./work/budgetTracker.png";
 export { default as redesign } from "./work/redesign.png";
 export { default as figmaDesign } from "./work/figma.png";
 export { default as Profile } from "./profile.png";
+export { default as pillReminder } from "./work/pill-reminder.png";

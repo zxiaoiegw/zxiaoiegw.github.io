@@ -22,7 +22,7 @@ export { default as food1 } from "./work/food1.jpg";
 
 export { default as summarization } from "./work/summarization.png";
 export { default as portfolio } from "./work/portfolio.png";
-export { default as kittens } from "./work/kittens.png";
+export { default as protech } from "./work/protech.png";
 export { default as budgetTracker } from "./work/budgetTracker.png";
 export { default as redesign } from "./work/redesign.png";
 export { default as figmaDesign } from "./work/figma.png";

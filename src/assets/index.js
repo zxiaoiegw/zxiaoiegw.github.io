@@ -20,7 +20,7 @@ export { default as career } from "./work/career.png";
 export { default as food } from "./work/food.png";
 export { default as food1 } from "./work/food1.jpg";
 
-export { default as summarization } from "./work/summarization.png";
+export { default as health } from "./work/health.png";
 export { default as portfolio } from "./work/portfolio.png";
 export { default as protech } from "./work/protech.png";
 export { default as budgetTracker } from "./work/budgetTracker.png";

@@ -13,11 +13,10 @@ import {
     Typescript,
     career,
     pillReminder,
-    // figmaDesign,
     portfolio, 
     budgetTracker,
-    // redesign,
-    summarization,
+    health,
+    // summarization,
   } from "./assets";
   
   export const tools = [
@@ -100,16 +99,24 @@ import {
     },
     {
       id: 2,
+      title: "Health Agent",
+      cat: "AI APP",
+      url: "https://health-agent-hn6y.onrender.com",
+      img: health,
+      description: "AI-powered health analysis application allows users to upload blood test and medical report PDFs for instant AI-generated diagnosis. Personalized health insights with risk assessment and recommendations.",
+      techStack: ["Python", "Streamlit", "Groq API", "Supabase", "Render"],
+    }, 
+    {
+      id: 3,
       title: "Commercial Website",
-      cat: "Web Design",
+      cat: "Full-Stack",
       url: "https://protech-wqk3.onrender.com/",
       img: protech,
       description: "Full-stack e-commerce application built with the MERN stack featuring user authentication, product management, shopping cart, PayPal payment integration, and an admin dashboard. Deployed to Render with MongoDB Atlas.",
       techStack: ["React", "Redux", "Bootstrap", "Express", "MongoDB", "JWT", "PayPal API", "Vite", "Render"],
-    }, 
-    
+    },   
     {
-      id: 3,
+      id: 4,
       title: "Budget Tracker App",
       cat: "AI + Full-Stack",
       url: "https://capstone-budget-tracker.vercel.app/",
@@ -118,7 +125,7 @@ import {
       techStack: ["React", "TypeScript", "Tailwind CSS", "React Context", "Node.js", "Express.js", "Supabase"],
     },
     {
-      id: 4,
+      id: 5,
       title: "Portfolio Website",
       cat: "Web Design",
       url: "https://zxiaoiegw.github.io/",
@@ -127,23 +134,14 @@ import {
       techStack: ["React", "JavaScript", "HTML", "CSS", "Tailwind CSS", "GitHub Copilot", "Vercel"],
     },
     {
-      id: 5,
+      id: 6,
       title: "Career Digital Twin Agent",
       cat: "AI APP",
       url: "https://huggingface.co/spaces/kittyiegw2026/career_conversation",
       img: career,
       description: "AI conversational agent built with Python and OpenAI API, with REST API integration and Pushover for real-time notifications on user interactions. Deployed to Hugging Face Spaces with secure environment variable management.",
       techStack: ["Python", "OpenAI API", "LangChain", "Hugging Face Spaces"],
-    },
-    {
-      id: 6,
-      title: "AI Text Summarization",
-      cat: "AI APP",
-      url: "https://llm-service-610283985914.us-central1.run.app/",
-      img: summarization,
-      description: "Containerized text summarization service using Vertex AI, deployed to Google Cloud Run. Docker for consistent deployment and performance across environments.",
-      techStack: ["Python", "Google Cloud", "Docker", "Vertex AI"],
-    },     
+    },   
   ];
   
   export const softskills = [
